@@ -1,0 +1,23 @@
+version: 1
+rules:
+  - policy_id: production-destructive
+    classification: DESTRUCTIVE
+    environment: production
+    action: REQUIRES_HUMAN_APPROVAL
+    reason: Destructive production operations require human approval.
+    priority: 10
+  - policy_id: security-sensitive-review
+    classification: SECURITY_SENSITIVE
+    action: REQUIRES_SECURITY_REVIEW
+    reason: Security-sensitive operations require security review.
+    priority: 20
+  - policy_id: modify-review
+    classification: MODIFY
+    action: REQUIRES_REVIEW
+    reason: Infrastructure modifications require review.
+    priority: 30
+  - policy_id: read-only-default
+    classification: READ_ONLY
+    action: ALLOW
+    reason: Read-only operations are permitted.
+    priority: 90

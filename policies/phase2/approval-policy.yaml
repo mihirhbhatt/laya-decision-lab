@@ -1,0 +1,7 @@
+version: 1
+rules:
+  - policy_id: privileged-human-approval
+    classification: PRIVILEGED
+    action: REQUIRES_HUMAN_APPROVAL
+    reason: Privileged operations require an explicit human decision.
+    priority: 10

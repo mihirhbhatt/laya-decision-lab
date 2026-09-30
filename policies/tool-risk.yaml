@@ -1,0 +1,25 @@
+tools:
+
+  aws_list_instances:
+    risk: LOW
+    action: ALLOW
+
+  aws_describe_vpc:
+    risk: LOW
+    action: ALLOW
+
+  aws_create_instance:
+    risk: MEDIUM
+    action: REVIEW
+
+  terraform_apply:
+    risk: HIGH
+    action: APPROVAL
+
+  aws_modify_iam:
+    risk: CRITICAL
+    action: HUMAN_APPROVAL
+
+  terraform_destroy:
+    risk: CRITICAL
+    action: HUMAN_APPROVAL

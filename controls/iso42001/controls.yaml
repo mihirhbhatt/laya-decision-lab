@@ -1,0 +1,5 @@
+framework: ISO42001
+controls:
+  - control_id: 6.2.2
+    name: AI system impact assessment
+    description: Assess impacts and risks of the AI system across its lifecycle.

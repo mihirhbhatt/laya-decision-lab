@@ -1,0 +1,13 @@
+rules:
+
+  - name: ignore_previous_instructions
+    action: BLOCK
+
+  - name: reveal_system_prompt
+    action: BLOCK
+
+  - name: bypass_security
+    action: BLOCK
+
+  - name: bypass_approval
+    action: BLOCK

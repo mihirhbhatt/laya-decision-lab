@@ -1,0 +1,25 @@
+version: 1
+id: interactive-security-review
+title: Interactive Security Decision Review
+description: >-
+  Guided local demonstration of request decisions, human review, a cloud control,
+  evidence collection, and audit. It never executes infrastructure changes.
+stages:
+  - id: decision
+    title: Understand the request and evaluate policy
+    handler: decision
+  - id: routing
+    title: Route uncertain classifications for review
+    handler: routing
+  - id: approval
+    title: Pause for human review when required
+    handler: approval
+  - id: tool_guard
+    title: Check the simulated tool boundary
+    handler: tool_guard
+  - id: cloud_control
+    title: Assess a sample cloud resource
+    handler: cloud_control
+  - id: audit
+    title: Record the complete decision outcome
+    handler: audit

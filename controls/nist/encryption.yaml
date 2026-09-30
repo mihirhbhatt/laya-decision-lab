@@ -1,0 +1,15 @@
+framework: NIST
+
+controls:
+
+  - control_id: SC-ENC-001
+
+    name: Data Encryption
+
+    description: >
+      Sensitive data must be encrypted.
+
+    severity: HIGH
+
+    policy_ids:
+      - require-encryption

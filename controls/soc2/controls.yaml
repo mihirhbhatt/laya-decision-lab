@@ -1,0 +1,5 @@
+framework: SOC2
+controls:
+  - control_id: CC6.1
+    name: Logical access controls
+    description: Restrict logical access to protected information and systems.

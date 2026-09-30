@@ -1,0 +1,8 @@
+version: 1
+rules:
+  - policy_id: production-destructive
+    classification: DESTRUCTIVE
+    environment: production
+    action: REQUIRES_HUMAN_APPROVAL
+    reason: Production destructive changes require explicit human approval.
+    priority: 10

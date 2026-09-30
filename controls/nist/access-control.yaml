@@ -1,0 +1,16 @@
+framework: NIST
+
+controls:
+
+  - control_id: AC-MFA-001
+
+    name: Multi-Factor Authentication
+
+    description: >
+      Privileged identities must use
+      multi-factor authentication.
+
+    severity: HIGH
+
+    policy_ids:
+      - require-mfa

@@ -1,0 +1,5 @@
+framework: PCI-DSS
+controls:
+  - control_id: 4.2
+    name: Protect cardholder data in transit
+    description: Use strong cryptography to protect cardholder data in transit.

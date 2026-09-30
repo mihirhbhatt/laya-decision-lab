@@ -1,0 +1,5 @@
+version: 1
+framework: ISO27001
+control_mappings:
+  encryption: [A.8.24]
+  access_control: [A.5.15, A.5.18]

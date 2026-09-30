@@ -1,0 +1,5 @@
+version: 1
+framework: NIST
+control_mappings:
+  encryption: [SC-8, SC-13]
+  access_control: [AC-2, AC-6]

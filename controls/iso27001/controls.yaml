@@ -1,0 +1,5 @@
+framework: ISO27001
+controls:
+  - control_id: A.8.24
+    name: Use of cryptography
+    description: Cryptographic controls protect information according to policy.

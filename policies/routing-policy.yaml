@@ -1,0 +1,13 @@
+routing:
+
+  standard:
+    confidence_minimum: 0.80
+    action: AUTOMATE
+
+  medium_risk:
+    confidence_minimum: 0.90
+    action: REVIEW
+
+  high_risk:
+    confidence_minimum: 0.95
+    action: HUMAN_APPROVAL
